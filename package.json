@@ -1,0 +1,16 @@
+{
+  "name": "leveldown-semver-range-parser",
+  "version": "1.0.0",
+  "description": "Parse semver ranges into leveldown queries",
+  "main": "index.js",
+  "author": "Tim Göller",
+  "license": "MIT",
+  "dependencies": {
+    "lexicographic-integer": "1.1.0",
+    "peekable-array-iterator": "1.0.0",
+    "semver": "7.3.4"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
