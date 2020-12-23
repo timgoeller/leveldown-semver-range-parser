@@ -1,5 +1,3 @@
-const lexint = require('lexicographic-integer')
-
 class Parser {
   constructor (lexer) {
     this.lexer = lexer.getTokenIterator()
