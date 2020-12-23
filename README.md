@@ -3,6 +3,8 @@ This parser parses semantic versioning range queries like `^1.3.4` to leveldown 
 
 Pre-Release versions (such as `1.2.3-alpha.3`) and the `||` operator are not supported. 
 
+Beware of dragons, this parser might not catch all cases yet.
+
 ## Example
 ```javascript
 let SemverRangeParser = require('leveldown-semver-range-parser')
